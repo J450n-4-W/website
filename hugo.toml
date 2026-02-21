@@ -1,0 +1,11 @@
+baseURL = 'https://j450n-4-w.github.io/website/'
+languageCode = 'en-us'
+title = 'Jason Wilson - Investigative Journalist'
+
+[params]
+  description = 'Investigative journalist covering far-right networks, media, law enforcement, and institutional capture.'
+
+[markup.goldmark.renderer]
+  unsafe = false
+
+disableKinds = ['taxonomy', 'term']
